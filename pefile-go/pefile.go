@@ -1,10 +1,12 @@
 package main
 
 import (
-	"./pe"
 	"log"
 	"os"
+
+	"github.com/soluwalana/pefile-go/pefile-go/pe"
 )
+
 func main() {
 	log.Println("hello everyone, lets parse your PEFile")
 	args := os.Args[1:]
